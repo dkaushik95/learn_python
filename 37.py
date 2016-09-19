@@ -5,5 +5,7 @@ student = {
 	'Harry': 72.1,
 	'Joe': 80.5
 }
-student = sorted(student)
 print student
+print sorted
+print sorted(student), sorted(student.values())
+
